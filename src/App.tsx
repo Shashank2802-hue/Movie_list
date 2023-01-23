@@ -17,6 +17,8 @@ import {
   View,
 } from "react-native";
 
+const x = "asa";
+
 import {
   Colors,
   DebugInstructions,
