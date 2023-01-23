@@ -17,8 +17,6 @@ import {
   View,
 } from "react-native";
 
-const x = "asa";
-
 import {
   Colors,
   DebugInstructions,
@@ -33,6 +31,7 @@ type SectionProps = PropsWithChildren<{
 
 function Section({ children, title }: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
+
   return (
     <View style={styles.sectionContainer}>
       <Text
